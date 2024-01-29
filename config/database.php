@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '167.172.136.168'),
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => (env('APP_ENV') == 'local') ? env('DB_DATABASE') : env('DB_DATABASE_PROD'),
             'username' => env('DB_USERNAME', 'forge'),
@@ -65,7 +65,7 @@ return [
         'fantacydb' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST_FANTACY', '167.172.136.168'),
+            'host' => env('DB_HOST_FANTACY', '127.0.0.1'),
             'port' => env('DB_PORT_FANTACY', '3306'),
             'database' => env('DB_DATABASE_FANTACY', 'forge'),
             'username' => env('DB_USERNAME_FANTACY', 'forge'),
@@ -113,7 +113,7 @@ return [
             'driver' => 'elasticsearch',
             'hosts' => [
                 [
-                    'host' => env('ELASTICSEARCH_HOST', '165.227.206.249'),
+                    'host' => env('ELASTICSEARCH_HOST', '127.0.0.1'),
                     'port' => env('ELASTICSEARCH_PORT', 9200),
                     'scheme' => env('ELASTICSEARCH_SCHEME', 'http'),
                     'user' => env('ELASTICSEARCH_USER'),
