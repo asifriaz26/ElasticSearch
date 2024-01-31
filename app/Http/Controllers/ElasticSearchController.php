@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class ElasticSearchController extends Controller
 {
     protected $elasticsearchClient;
-    private   $itemIndexFile = 'search_item_index';
+    private   $itemIndexFile = 'items_index';
 
     public function __construct()
     {

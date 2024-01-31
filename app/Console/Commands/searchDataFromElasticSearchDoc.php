@@ -38,7 +38,7 @@ class searchDataFromElasticSearchDoc extends Command
      */
     public function handle()
     {
-        $indexName   = 'search_item_index';
+        $indexName   = 'items_index';
         $searchQuery = $this->argument('itemId');
         
         // Elasticsearch client configuration
