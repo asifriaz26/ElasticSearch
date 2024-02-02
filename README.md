@@ -19,8 +19,10 @@ Before getting started, ensure you have the following installed:
 
 2. Update Composer
 
-    ```update composer
-    update all dependencies to their latest versions based on the version constraints in the `composer.json`
+- Update all dependencies to their latest versions based on the version constraints in the `composer.json` by running composer update command
+
+    ```update composer command
+      composer update
 
 ## Configuration
 
